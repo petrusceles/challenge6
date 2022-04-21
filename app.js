@@ -7,6 +7,13 @@ app.use(morgan("dev"));
 
 app.use(express.json());
 
+const swaggerUi = require("swagger-ui-express");
+app.use(
+  "/api-docs",
+  swaggerUi.serve,
+  swaggerUi.setup(require("./swagger.json"))
+);
+
 const router = require("./routes");
 app.use("/api/v1", router);
 
