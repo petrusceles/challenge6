@@ -4,11 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js"
   },
   "repository": {
-    "start": "node app.js",
     "type": "git",
     "url": "git+https://github.com/putrasena21/challenge4.git"
   },
