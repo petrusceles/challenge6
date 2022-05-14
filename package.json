@@ -8,6 +8,7 @@
     "dev": "nodemon app.js"
   },
   "repository": {
+    "start": "node app.js",
     "type": "git",
     "url": "git+https://github.com/putrasena21/challenge4.git"
   },
